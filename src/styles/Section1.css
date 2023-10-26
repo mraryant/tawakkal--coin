@@ -141,6 +141,13 @@ line-height: 34px; /* 161.905% */
               0 100%);
     transition: color 250ms;
   }
+  @media (max-width:490px)
+  {
+    .btn {
+
+      font-size: 3vmin;
+    }
+  }
   
   .btn::after,
   .btn::before {
