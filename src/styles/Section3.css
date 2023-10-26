@@ -1,0 +1,155 @@
+.s3main{
+    
+    width: 100%;
+    height: 100% ;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+padding-top: 50px;
+
+}
+.s3block{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+    padding: 20px 30px;
+   
+
+}
+.s3headersmall{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-transform: uppercase;
+}
+.s3header1{
+    color: #FFF;
+    font-family: 'Manrope', sans-serif;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 550;
+line-height: 60px; /* 150% */
+}
+.s3usecase{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    overflow: visible;
+    width: 100%;
+}
+.s3usecase2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 80px;
+    width: 100%;
+}
+.s3usecaseleft{
+    width: 40%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.usecasemain{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.s3usecaseright{
+    width: 60%;
+    
+   
+}
+.usecase1{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.ucheading{
+    color: #FFF;
+margin: 0px;
+/* Heading/H5 */
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 33.6px */
+
+}
+.ucpara{
+    color: #FFF;
+    margin: 0px;
+    padding:20px 0px;
+/* Text/Regular/Normal */
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+
+}
+.ucbutton{
+    color: #FFF;
+    margin: 0px;
+    /* Text/Regular/Normal */
+    font-family: Manrope;
+    font-size: 16px;
+
+}
+.s3img1{
+    width: 403px;
+height: 352px;
+flex-shrink: 0;
+}
+.s3img2{
+    width: 350px;
+    height: 302px;
+    flex-shrink: 0;
+    background: url(../assets/s3img2.png), lightgray 50% / cover no-repeat;
+mix-blend-mode: hard-light;
+}
+.s3img3{
+    width: 410px;
+height: 309px;
+flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .s3usecase{
+        flex-direction: column;
+    }
+    .s3usecase2{
+        flex-direction: column;
+    }
+    .s3usecaseleft{
+        width: 100%;
+         
+    }
+    .s3usecaseright{
+        width: 100%;
+    }
+    .s3img1{
+        width:100%;
+        height:100%;
+    }
+    .s3img2{
+        width:100%;
+        height:100%;
+    }
+    .s3img3{
+        width:100%;
+        height:100%;
+    }
+}

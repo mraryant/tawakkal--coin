@@ -1,0 +1,103 @@
+.fmain{
+    width:100%;
+    height: 100%;
+}
+.footer-02 .footer-heading {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.9);
+    overflow: visible;
+    margin-bottom: 20px; }
+.footer-02 {
+    background: #131719; }
+    
+      .footer-02 .footer-heading .logo {
+        color: #fff;
+        text-transform: uppercase; }
+    .footer-02 a {
+      color: #bba387; }
+    .footer-02 p {
+      color: rgba(255, 255, 255, 0.3); }
+    .footer-02 .copyright {
+      color: rgba(255, 255, 255, 0.4);
+      font-size: 14px; }
+    .footer-02 .list-unstyled li a {
+      color: rgba(255, 255, 255, 0.4); }
+      .footer-02 .list-unstyled li a:hover {
+        color: #fff; }
+    .footer-02 .list-unstyled a {
+      color: rgba(255, 255, 255, 0.4); }
+      .footer-02 .list-unstyled a:hover {
+        color: #fff; }
+    .footer-02 .subscribe {
+      margin-top: -105px; }
+    .footer-02 .subscribe-form {
+      border-radius: 40px;
+      background: #fff;
+      padding: 3px;
+      -webkit-box-shadow: 0px -12px 21px -15px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px -12px 21px -15px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px -12px 21px -15px rgba(0, 0, 0, 0.1); }
+      .footer-02 .subscribe-form .form-group {
+        position: relative;
+        margin-bottom: 0;
+        border-radius: 0; }
+        .footer-02 .subscribe-form .form-group input {
+          background: transparent !important;
+          border: none !important;
+          outline: none !important;
+          color: rgba(0, 0, 0, 0.3) !important;
+          font-size: 16px;
+          height: 56px;
+          border-radius: 0; }
+          .footer-02 .subscribe-form .form-group input::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: rgba(0, 0, 0, 0.3) !important; }
+          .footer-02 .subscribe-form .form-group input::-moz-placeholder {
+            /* Firefox 19+ */
+            color: rgba(0, 0, 0, 0.3) !important; }
+          .footer-02 .subscribe-form .form-group input:-ms-input-placeholder {
+            /* IE 10+ */
+            color: rgba(0, 0, 0, 0.3) !important; }
+          .footer-02 .subscribe-form .form-group input:-moz-placeholder {
+            /* Firefox 18- */
+            color: rgba(0, 0, 0, 0.3) !important; }
+          .footer-02 .subscribe-form .form-group input:focus {
+            outline: none !important;
+            -webkit-box-shadow: none;
+            box-shadow: none; }
+        .footer-02 .subscribe-form .form-group .submit {
+          color: #fff !important;
+          display: block;
+          width: 150px;
+          height: 56px;
+          font-size: 14px;
+          background: #bfa88e !important;
+          border: none;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          border-radius: 40px; }
+          .footer-02 .subscribe-form .form-group .submit:hover, .footer-02 .subscribe-form .form-group .submit:focus {
+            text-decoration: none !important;
+            outline: none !important; }
+    .footer-02 .partner-wrap {
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding: 1em 0; }
+      .footer-02 .partner-wrap h3 {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.4); }
+      .footer-02 .partner-wrap .partner-name a {
+        margin-right: 10px;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.4); }
+        .footer-02 .partner-wrap .partner-name a span {
+          color: white; }
+      .footer-02 .partner-wrap .btn-custom {
+        font-size: 14px; }
+    .footer-02 .border-left {
+      border-color: rgba(255, 255, 255, 0.05) !important; }
+      @media (max-width: 1199.98px) {
+        .footer-02 .border-left {
+          border: none; } }
+  

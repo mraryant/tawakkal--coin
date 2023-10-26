@@ -1,0 +1,337 @@
+
+*{
+  overflow-x: hidden  ;
+}
+div{
+  overflow-x: visible;
+}
+.s1main>img{
+  overflow: visible;
+}
+.s1main{
+    color: white;
+    width: 100%;
+    min-height: 100vh ;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+justify-content: center;
+align-items: center;
+ 
+flex-direction: row;
+position: relative;
+
+}
+
+.s1hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 8%;
+    text-align: center;
+   
+}
+.s1small{
+    color: var(--Gray-6, #F2F2F2);
+text-align: center;
+font-family: Manrope;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 31.5px */
+}
+.maintitle{
+    color: var(--Gray-6, #F2F2F2);
+    text-align: center;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    /* Bold/80px */
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86px; /* 107.5% */
+    letter-spacing: -4px;
+}
+.paradiv{
+    display: flex;
+    justify-content: center;align-items: center;
+    
+}
+
+
+.mainpara{
+    width: 70%;
+    color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 161.905% */
+}
+.s1bottom{
+    position: absolute;
+    
+    bottom: 0%;
+}
+.s1row{
+    width: 100%;
+    transform: scale(1.3);
+   
+
+}
+.blackbox{
+    width:100%;
+    height: 300px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0) 100%);
+    position: absolute;
+    margin-top: 1000px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1button{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 480px;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.btn {
+    --border-color: linear-gradient(-45deg, #ffae00, #40ab2d, #359d08);
+    --border-width: .125em;
+    --curve-size: .5em;
+    --blur: 30px;
+    --bg: #080312;
+    --color: #afffff;
+    color: var(--color);
+      /* use position: relative; so that BG is only for .btn */
+    position: relative;
+    isolation: isolate;
+    display: inline-grid;
+    place-content: center;
+    padding: .5em 1.5em;
+    font-size: 17px;
+    border: 0;
+    width: 250px;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
+    clip-path: polygon(
+              /* Top-left */
+              0% var(--curve-size),
+  
+              var(--curve-size) 0,
+              /* top-right */
+              100% 0,
+              100% calc(100% - var(--curve-size)),
+  
+              /* bottom-right 1 */
+              calc(100% - var(--curve-size)) 100%,
+              /* bottom-right 2 */
+              0 100%);
+    transition: color 250ms;
+  }
+  
+  .btn::after,
+  .btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  
+  .btn::before {
+    background: var(--border-color);
+    background-size: 300% 300%;
+    animation: move-bg7234 5s ease infinite;
+    z-index: -2;
+  }
+  
+  @keyframes move-bg7234 {
+    0% {
+      background-position: 31% 0%
+    }
+  
+    50% {
+      background-position: 70% 100%
+    }
+  
+    100% {
+      background-position: 31% 0%
+    }
+  }
+  
+  .btn::after {
+    background: var(--bg);
+    z-index: -1;
+    clip-path: polygon(
+              /* Top-left */
+              var(--border-width) 
+              calc(var(--curve-size) + var(--border-width) * .5),
+  
+              calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
+  
+              /* top-right */
+              calc(100% - var(--border-width)) 
+              var(--border-width),
+  
+              calc(100% - var(--border-width)) 
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+  
+              /* bottom-right 1 */
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
+              /* bottom-right 2 */
+              var(--border-width) calc(100% - var(--border-width)));
+    transition: clip-path 500ms;
+  }
+  
+  .btn:where(:hover, :focus)::after {
+    clip-path: polygon(
+                  /* Top-left */
+                  calc(100% - var(--border-width)) 
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      
+                  calc(100% - var(--border-width))
+  
+                  var(--border-width),
+      
+                  /* top-right */
+                  calc(100% - var(--border-width))
+  
+                   var(--border-width),
+      
+                  calc(100% - var(--border-width)) 
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+      
+                  /* bottom-right 1 */
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) 
+                  calc(100% - var(--border-width)),
+  
+                  /* bottom-right 2 */
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+                  calc(100% - var(--border-width)));
+    transition: 200ms;
+  }
+  
+  .btn:where(:hover, :focus) {
+    color: #fff;
+  }
+
+
+  .pyramid-loader {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: block;
+    transform-style: preserve-3d;
+    transform: rotateX(-20deg);
+  }
+  
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: spin 4s linear infinite;
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .pyramid-loader .wrapper .side {
+    width: 70px;
+    height: 70px;
+  /* you can choose any gradient or color you want */
+    /* background: radial-gradient( #2F2585 10%, #F028FD 70%, #2BDEAC 120%); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform-origin: center top;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  .pyramid-loader .wrapper .side1 {
+    transform: rotateZ(-30deg) rotateY(90deg);
+    background: conic-gradient( #2BDEAC, #F028FD, #D8CCE6, #2F2585);
+  }
+  
+  .pyramid-loader .wrapper .side2 {
+    transform: rotateZ(30deg) rotateY(90deg);
+    background: conic-gradient( #2F2585, #D8CCE6, #F028FD, #2BDEAC);
+  }
+  
+  .pyramid-loader .wrapper .side3 {
+    transform: rotateX(30deg);
+    background: conic-gradient( #2F2585, #D8CCE6, #F028FD, #2BDEAC);
+  }
+  
+  .pyramid-loader .wrapper .side4 {
+    transform: rotateX(-30deg);
+    background: conic-gradient( #2BDEAC, #F028FD, #D8CCE6, #2F2585);
+  }
+  
+  .pyramid-loader .wrapper .shadow {
+    width: 60px;
+    height: 60px;
+    background: #8B5AD5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotateX(90deg) translateZ(-40px);
+    filter: blur(12px);
+  }
+  .loader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+@media (max-width:768px){
+    .s1hero{
+        padding: 20px;
+    }
+    .maintitle{
+        color: var(--Gray-6, #F2F2F2);
+        text-align: center;
+       
+        font-family: Manrope;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 66px; /* 107.5% */
+        letter-spacing: -3px;
+    }
+    .mainpara{
+        width: 100%;
+        font-size: 18px;
+        line-height: 24px
+    }
+    .s1button{
+      margin-left: 0%;
+    }
+}

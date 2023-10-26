@@ -1,0 +1,31 @@
+.topnav{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.navfluid{
+    padding:0px 60px;
+}
+.ngflex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    justify-content: center;align-items: center;
+
+}
+
+@media (max-width: 1000px) {
+    
+  .ngflex{
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;align-items: center;
+    
+  }
+  .navfluid{
+    padding: 10px 30px;
+  }
+}

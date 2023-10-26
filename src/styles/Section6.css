@@ -1,0 +1,223 @@
+.s6main{
+    
+    width: 100%;
+    height: 100% ;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+padding-top: 50px;
+overflow: hidden;
+
+}
+.s6block{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+   
+   
+
+}
+.s6team{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team1{
+    width: 300px;
+    height: 100%;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.289);
+    border-radius: 15px;
+}
+.teamimg{
+    border-radius: 15px;
+}
+.teamdetail{
+    padding: 20px 10px;
+}
+.teamname{
+    color: var(--Gray-6, #F2F2F2);
+text-align: center;
+
+/* Text/Large/Semi Bold */
+
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+margin-bottom: 10px;
+    
+}
+.teamjob{
+    color: var(--Gray-6, #F2F2F2);
+text-align: center;
+
+/* Text/Medium/Normal */
+margin-bottom: 10px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+.teamdesc{
+    color: var(--Gray-6, #F2F2F2);
+text-align: center;
+
+/* Text/Regular/Normal */
+margin-bottom: 10px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+
+@media (max-width: 768px) {
+    .team1{
+        width: 300px;
+        margin:20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   width: 100%;
+ 
+   justify-content: space-between;
+   align-items: center;
+}
+.t1{
+    width: 20%;
+    height: 300px;
+    flex-shrink: 0;
+border-radius: 373px;
+border: 11px solid #FFF;
+background: #E2E8F0;
+
+
+}
+.t2{
+    width: 22%;
+height: 338px;
+flex-shrink: 0;
+margin-left: 10%;
+border-radius: 373px;
+border: 11px solid #FFF;
+background: #2158a0;
+left: 130px;
+position: absolute;
+
+
+}
+.t3{
+    width: 25%;
+height: 373px;
+flex-shrink: 0;
+border-radius: 373px;
+border: 11px solid #FFF;
+background: #aacfff;
+z-index: 1;
+
+
+
+}
+.t4{
+    width: 22%;
+height: 338px;
+flex-shrink: 0;
+margin-right: 10%;
+border-radius: 373px;
+border: 11px solid #FFF;
+background: #2158a0;
+right: 130px;
+position: absolute;
+
+
+}
+.t5{
+    width: 20%;
+    height: 300px;
+   
+    flex-shrink: 0;
+border-radius: 373px;
+border: 11px solid #FFF;
+background: #E2E8F0;
+
+
+
+}
+.t1{
+    background: url(../assets/team3.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.t2{
+    background: url(../assets/team2.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.t3{
+    background: url(../assets/team1.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+.t4{
+    background: url(../assets/team4.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.t5{
+    background: url(../assets/team5.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
