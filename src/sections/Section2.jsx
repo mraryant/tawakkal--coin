@@ -11,7 +11,7 @@ const Section2 = () => {
   
   return (
     <>
-      <motion.div className='s2main' initial={{ opacity: 0 }} transition={{
+      <motion.div id="about" className='s2main' initial={{ opacity: 0 }} transition={{
         ease: "linear",
         duration: 1,
       }}
@@ -34,9 +34,8 @@ const Section2 = () => {
             }}
             className='s2left'>
             <img src={s2img} style={{ width: "100%", height: "100%" }} alt='react' />
-            <p className='s2leftpara'>Discover Tawakkal Coin, a revolutionary cryptocurrency rooted in the principles of Islamic
-              finance and driven by a vision of transparency, inclusion, and philanthropy. Join us on a transformative
-              journey where technology meets faith, and financial empowerment converges with compassion.
+            <p className='s2leftpara'>
+              Our vision at Tawakkal Coin is to establish a global standard for ethical innovation within the Islamic realm. We envision a world where technology seamlessly integrates with Islamic teachings, enhancing lives and fostering a sense of unity among the Islamic community.
             </p>
           </motion.div>
 
@@ -57,15 +56,12 @@ const Section2 = () => {
             className='s2right'>
             <p className='s2small'>About Us</p>
             <p className='s2heading'>a new connection protocols for work</p>
-            <p className='s2para'>Our platform is to increase your money that can easily grow your money in the form of
-              cryptocurrency which is depend the main which is responsible for maintainig the software
-              Our platform is to increase your money that can easily grow your money in the form of
-              cryptocurrency which is depend the main which is responsible for maintainig the software</p>
+            <p className='s2para'>Discover Tawakkal Coin, a revolutionary cryptocurrency rooted in the principles of Islamic
+              finance and driven by a vision of transparency, inclusion, and philanthropy. Join us on a transformative
+              journey where technology meets faith, and financial empowerment converges with compassion.</p>
             <div className='s2mid' style={{ display: "flex", justifyContent: 'center', alignItems: "center" }}>
               <p className='s2midpara'>
-                the platform of crypto is completely designed with the principal
-                of maintaining the main wire of accounts that they had some
-                virtual time of legacy
+              The objectives of Tawakkal Coin are centred around creating a cryptocurrency ecosystem that is deeply rooted in Islamic values and principles, promoting transparency, inclusivity, and philanthropy. 
               </p>
             </div>
             <div className='s2feature'>
@@ -88,12 +84,10 @@ const Section2 = () => {
                   className='s2points'>
                   <div style={{ display: "flex", flexDirection: "row" }}>
                     <img src={S2icon} style={{ width: 22, height: 23, marginRight: 5 }} />
-                    <p className='s2featureheading'>Islamic Principles at the Core</p>
+                    <p className='s2featureheading'>Transparent Cryptocurrency</p>
 
                   </div>
-                  <p className='s2featureparagraph'>Tawakkal Coin is designed in compliance with Islamic finance principles,
-                    ensuring every transaction and engagement aligns with the teachings of Islam,
-                    providing a halal alternative for financial empowerment.</p>
+                  <p className='s2featureparagraph'>Tawakkal Coin's primary objective is to develop a cryptocurrency that is fully compliant with Sharia, the Islamic legal framework. It ensures that all aspects of the coin, from its issuance to its usage, align with the ethical guidelines set forth in the Quran and the teachings of the Prophet Muhammad (PBUH). </p>
                 </motion.div>
                 <motion.div
                   initial={{
@@ -113,11 +107,11 @@ const Section2 = () => {
                   className='s2points'>
                   <div style={{ display: "flex", flexDirection: "row" }}>
                     <img src={S2icon} style={{ width: 22, height: 23, marginRight: 5 }} />
-                    <p className='s2featureheading'>Community-Driven Ecosystem</p>
+                    <p className='s2featureheading'>Technological Advancements </p>
 
                   </div>
 
-                  <p className='s2featureparagraph'>Our ecosystem thrives on community participation and engagement. As we grow, we invite you to actively shape the future of Tawakkal Coin through governance and feedback.</p>
+                  <p className='s2featureparagraph'>Tawakkal Coin aims to integrate technological advancements with Islamic laws, ensuring that the use of blockchain technology and other digital tools is consistent with Islamic ethical standards. This involves developing smart contracts, decentralized applications (dApps), and other technological features that comply with Sharia principles. </p>
                 </motion.div>
               </div>
               <div className='s2featureright'>
@@ -139,11 +133,11 @@ const Section2 = () => {
                   className='s2points'>
                   <div style={{ display: "flex", flexDirection: "row" }}>
                     <img src={S2icon} style={{ width: 22, height: 23, marginRight: 5 }} />
-                    <p className='s2featureheading'>Charitable Endeavors</p>
+                    <p className='s2featureheading'>Financial Inclusion and Philanthropy</p>
 
                   </div>
 
-                  <p className='s2featureparagraph'>We believe in giving back to society. With Tawakkal Coin, every transaction contributes to charitable causes, uplifting communities and making a meaningful impact on a global scale.</p>
+                  <p className='s2featureparagraph'>objective of Tawakkal Coin is to foster financial inclusion, providing access to financial services for all segments of society. It endeavours to bridge gaps in financial access and participation, particularly in underprivileged or underserved communities. </p>
                 </motion.div>
                 <motion.div
                   initial={{

@@ -31,6 +31,7 @@ padding-top: 50px;
 .roadmaphead{
     color: #FFF;
     overflow: visible;
+    text-transform:capitalize;
 }
 .timeline-steps {
     display: flex;
@@ -139,7 +140,8 @@ padding-top: 50px;
     align-items: center;
     justify-content: center;
         overflow: visible;
-    background-image: url(../assets/stopwatch.png);
+    background-image: url(/public/stopwatch.png);
+    background-size: contain;
 }
 
 .timeline-steps .timeline-content .inner-circle:before {
@@ -151,7 +153,8 @@ padding-top: 50px;
     border-radius: 6.25rem;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../assets/stopwatch.png);
+    background-image: url(/public/stopwatch.png);
+    background-size: contain;
     
 }
 
@@ -179,4 +182,18 @@ padding-top: 50px;
     
 }
 
- 
+ .modalbody{
+    font-family:Manrope;
+     padding:20px;
+      background-color:rgba(0, 0, 0, 0.903);
+      color: #FFF;
+ }
+ .modalfooter{
+    background-color: black;
+ }
+ .mainmodal{
+    background-color: #000000c6;
+ }
+ .modalpara{
+    font-size: 16px;
+ }

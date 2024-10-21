@@ -2,10 +2,24 @@
 import '../styles/Section5.css'
 import Piechart from '../assets/piechart.png'
 import { motion } from "framer-motion"
-const Section5 = () => {
+import { useState } from 'react'
 
+const Section5 = () => {
  
- 
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText('0x9e3F29552c7D4651BF14bE395C68032Ef3C91901') // Replace with the text you want to copy
+      .then(() => {
+        setCopied(true);
+        setTimeout(() => {
+          setCopied(false);
+        }, 2000); // Hide the popup after 2 seconds
+      })
+      .catch(err => {
+        console.error('Copy failed: ', err);
+      });
+  };
   const whileInViewAnimation = {
     opacity: 1,
     x: 0,
@@ -16,10 +30,11 @@ const Section5 = () => {
 
   };
 
-
+  const text ="0x9e3F29552c7D4651BF14bE395C68032Ef3C91901"
   return (
+    
     <>
-      <motion.div className='s5main' initial={{ opacity: 0 }} transition={{
+      <motion.div id="tokenomics" className='s5main' initial={{ opacity: 0 }} transition={{
         ease: "linear",
         duration: 1,
       }}
@@ -76,6 +91,18 @@ const Section5 = () => {
             <div className='tokenright'>
               <img src={Piechart} className='piechart' />
             </div>
+          </div>
+
+          <div className="addressmain" id='contract'>
+          <div className="address">
+          <span style={{fontWeight:500, fontSize:"20px",color:"white", letterSpacing:1 }}>Contract Address</span>
+<p className="contract" > {text}</p>
+
+</div>
+
+    <button onClick={handleCopy}><img src="./copy.gif" style={{width:25, height:25, marginRight:15, color:"black", backgroundColor:"white"}} alt="" />
+     Copy Address</button>
+      {copied && <div className="popup" style={{color:"white"}}>Copied to clipboard!</div>}
           </div>
         </div>
       </motion.div>

@@ -6,6 +6,10 @@ import { motion } from "framer-motion"
 
 
 const Section1 = () => {
+  const openPDF = () => {
+    window.open("/twklw.pdf", "_blank")
+  }
+   
 
   return (
     <>
@@ -51,7 +55,7 @@ const Section1 = () => {
           </div>
           <div className='paradiv'>
 
-            <p className='mainpara'>We are on a mission to onboard over 1.8+ billion Muslims into digital finance without compromising the values and faith. Islamic coin is the native currency of HAQQ, an ethics first, scalable and interoperable blockchain built on Proof-of-Stake with fast finality.</p>
+            <p className='mainpara'>At Tawakkal Coin, we're redefining the future of finance while staying true to our ethical roots. Our ecosystem merges cutting-edge technology with the principles of Sharia to create a dynamic platform that caters not just to Muslims but to people of all backgrounds.</p>
 
           </div>
         </div>
@@ -59,26 +63,28 @@ const Section1 = () => {
 
 
         <div className='s1button'>
-          <motion.button className="btn"
+          <motion.a className="btn"
             initial={{ x: -150 }}
             transition={{ ease: "easeInOut", duration: 1, }}
             whileInView={{x:0}}
+            href='https://presale.twkl.io/'
+            target='blank'
           >
             Buy Tokens
-          </motion.button>
+          </motion.a>
 
           <motion.button className="btn"
             initial={{ x:150 }}
             transition={{ ease: "easeInOut", duration: 1, }}
             whileInView={{ x: 0 }}
+            onClick={openPDF}
           >
             Get Whitepaper
           </motion.button>
         </div>
         <div className='blackbox'>
-          <p className='s1small'>Trusted by the worlds best companies [social proof to build credibility]</p>
+          <p className='s1small'>Exchange Listing Comming Soon .....</p>
           <img src={s1row} className='s1row' />
-
         </div>
       </motion.div>
 

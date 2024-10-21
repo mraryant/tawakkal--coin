@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const Section4 = () => {
     return (
         <>
-            <motion.div className="s4main" initial={{ opacity: 0 }} transition={{
+            <motion.div id="roadmap" className="s4main" initial={{ opacity: 0 }} transition={{
                 ease: "linear",
                 duration: 1,
             }}
@@ -39,28 +39,28 @@ const Section4 = () => {
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="PHASE 1">
                                         <div className="inner-circle2"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 1</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">TOKEN LAUNCH</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Token Launch</p>
                                     </div>
                                 </div>
                                 <div className="timeline-step">
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="PHASE 1">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 2</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">ICO LAUNCH</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">ICO Launch</p>
                                     </div>
                                 </div>
                                 <div className="timeline-step">
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="PHASE 1">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 3</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">ISLAMIC APP</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Islamic App</p>
                                     </div>
                                 </div>
                                 <div className="timeline-step">
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 4</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">DEBIT CARD</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Debit Card</p>
                                     </div>
                                 </div>
 
@@ -87,28 +87,28 @@ const Section4 = () => {
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="PHASE 1">
                                         <div className="inner-circle"> </div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 5</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">NFT MARKETPLACE</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">NFT Marketplace </p>
                                     </div>
                                 </div>
                                 <div className="timeline-step">
                                     <div className="timeline-content " data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="PHASE 1">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 6</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">HALAL MARKET CAP</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Halal Coin Market Cap</p>
                                     </div>
                                 </div>
                                 <div className="timeline-step">
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="PHASE 1">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 7</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">JOB PORTAL</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Online education Portal (Tawakkal Academy) </p>
                                     </div>
                                 </div>
                                 <div className="timeline-step">
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 8</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">MUSLIM MATRIMONIAL SITE</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Job Portal</p>
                                     </div>
                                 </div>
 
@@ -133,28 +133,28 @@ const Section4 = () => {
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="PHASE 1">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 9</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">KUKU FM</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Tawakkal Platform for Audio Islamic Books</p>
                                     </div>
                                 </div>
                                 <div className="timeline-step">
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="PHASE 1">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 10</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">OWN BLOCKCHAIN</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Own Blockchain</p>
                                     </div>
                                 </div>
                                 <div className="timeline-step">
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="PHASE 1">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 11</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0">METAVERSE AR+VR</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Metaverse AR+VR</p>
                                     </div>
                                 </div>
                                 <div className="timeline-step">
                                     <div className="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
                                         <div className="inner-circle"></div>
                                         <p className="h6 mt-3 mb-1 roadmapsmall">PHASE 12</p>
-                                        <p className="h6 roadmaphead mb-0 mb-lg-0"> Tawakkal Zakat & Sadaqa Wallet</p>
+                                        <p className="h6 roadmaphead mb-0 mb-lg-0">Muslim Matrimonial Site</p>
                                     </div>
                                 </div>
 

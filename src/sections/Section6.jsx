@@ -27,7 +27,7 @@ const Section6 = () => {
 
   return (
     <>
-      <motion.div className='s6main'
+      <motion.div className='s6main' id="team"
         >
         <div className='s6block'>
           <div className='s3header'>

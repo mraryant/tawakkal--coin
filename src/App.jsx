@@ -10,7 +10,7 @@ import Topnav from './components/Topnav'
 import Footer from './sections/Footer'
 
 function App() {
- 
+
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -20,31 +20,31 @@ function App() {
   }, []);
   return (
     <>
-    {loading ? (
+      {loading ? (
         <div className="loader-container">
-        <div className="pyramid-loader">
-  <div className="wrapper">
-    <span className="side side1"></span>
-    <span className="side side2"></span>
-    <span className="side side3"></span>
-    <span className="side side4"></span>
-    <span className="shadow"></span>
-  </div>  
-</div>
+          <div className="pyramid-loader">
+            <div className="wrapper">
+              <span className="side side1"></span>
+              <span className="side side2"></span>
+              <span className="side side3"></span>
+              <span className="side side4"></span>
+              <span className="shadow"></span>
+            </div>
+          </div>
         </div>
       ) : (
         <div>
-        <Topnav />
-   <Section1 />
-   <Section2 />
-   <Section3 />
-   <Section4 />
-   <Section5 />
-   <Section6 />
-   <Footer />
+          <Topnav />
+          <Section1 />
+          <Section2 />
+          <Section3 />
+          <Section4 />
+          <Section5 />
+          {/* <Section6 /> */}
+          <Footer />
         </div>
-      )}  
-   
+      )}
+
     </>
   )
 }

@@ -36,8 +36,9 @@ const Topnav = () => {
         
         className=" navbar navbar-expand-lg navbar-dark topnav">
         <div className="container-fluid navfluid" >
-          <img  
-            src={Logo} style={{ width: 200, height: 80 }} />
+          <a href="#">
+          <img src={Logo} style={{ width: 200, height: 80 }} />
+          </a>
           
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -54,24 +55,24 @@ const Topnav = () => {
                 <a className="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Wallet</a>
+                <a className="nav-link" href="#contract">Wallet</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Learn</a>
+                <a className="nav-link" href="#usecase">Usecase</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Team</a>
+                <a className="nav-link" href="#roadmap">Roadmap</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Tokenomics</a>
+                <a className="nav-link" href="#tokenomics">Tokenomics</a>
               </li>
             </ul>
             <form className="d-flex ngflex">
 
-              <button className="btn btn-outline-success" type="submit" style={{ width: "100%", fontSize: 14 }}>Buy Tokens</button>
+              <a className="btn btn-outline-success" type="submit" style={{ width: "100%", fontSize: 14 }} href='https://presale.twkl.io/'>Buy Tokens</a>
             </form>
           </div>
         </div>
