@@ -1,8 +1,11 @@
 * {
-  overflow-x: hidden;
+ 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 div {
-  overflow-x: visible;
+  
 }
 .s1main > img {
   overflow: visible;
@@ -45,7 +48,7 @@ div {
   text-align: center;
   width: auto;
   height: auto;
-  overflow: visible;
+  /* overflow: visible; */
   /* Bold/80px */
   font-family: Manrope;
   font-size: 80px;
@@ -92,7 +95,7 @@ div {
   margin-top: 1000px;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
   justify-content: center;
   align-items: center;
 }

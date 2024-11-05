@@ -33,7 +33,7 @@ function App() {
           </div>
         </div>
       ) : (
-        <div>
+        <div style={{ overflowX:"hidden" ,  width:"100vw" }}>
           <Topnav />
           <Section1 />
           <Section2 />

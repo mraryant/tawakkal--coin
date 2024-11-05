@@ -56,31 +56,31 @@ const Section5 = () => {
 
               className='tokenleft'>
               
-              <motion.div initial={{ opacity:0 , x:-300}} whileInView={whileInViewAnimation} className='tokenleft1'>
+              <motion.div initial={{ opacity:0 , x:-200}} whileInView={whileInViewAnimation} className='tokenleft1'>
                 <p className='s5leftname'>Coin Name</p>
                 <div className='s5detail'>
                   <p className='s5para'>Tawakkal Coin</p>
                 </div>
               </motion.div>
-              <motion.div initial={{ opacity: 0, x: -300 }} whileInView={whileInViewAnimation} className='tokenleft1'>
+              <motion.div initial={{ opacity: 0, x: -200 }} whileInView={whileInViewAnimation} className='tokenleft1'>
                 <p className='s5leftname'>Coin Symbol</p>
                 <div className='s5detail'>
                   <p className='s5para'>TWKL</p>
                 </div>
               </motion.div>
-              <motion.div initial={{ opacity: 0, x: -300 }} whileInView={whileInViewAnimation} className='tokenleft1'>
+              <motion.div initial={{ opacity: 0, x: -200 }} whileInView={whileInViewAnimation} className='tokenleft1'>
                 <p className='s5leftname'>Tech</p>
                 <div className='s5detail'>
                   <p className='s5para'>BEP 20</p>
                 </div>
               </motion.div>
-              <motion.div initial={{ opacity: 0, x: -300 }} whileInView={whileInViewAnimation} className='tokenleft1'>
+              <motion.div initial={{ opacity: 0, x: -200 }} whileInView={whileInViewAnimation} className='tokenleft1'>
                 <p className='s5leftname'>Supply</p>
                 <div className='s5detail'>
                   <p className='s5para'>120 CR</p>
                 </div>
               </motion.div>
-              <motion.div initial={{ opacity: 0, x: -300 }} whileInView={whileInViewAnimation} className='tokenleft1'>
+              <motion.div initial={{ opacity: 0, x: -200 }} whileInView={whileInViewAnimation} className='tokenleft1'>
                 <p className='s5leftname'>Decimal</p>
                 <div className='s5detail'>
                   <p className='s5para'>09</p>
